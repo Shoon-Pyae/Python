@@ -8,6 +8,8 @@ if name==confirmname:
     print("Welcome library ")
 else:
     print("Try again")
+for repeat in range(1,2):
+     print(confirmname)
 
 startdate=input("Enter your start date ")
 returndate=input("Enter your return date :")
@@ -19,6 +21,9 @@ if email==confirmemail:
     print("successful")
 else:
     print("incorrect, Please check it again :")
+for repeat in range (1,2):
+     print(confirmemail)
+
 address=input("Enter your address :")
 phonenumber=input("Enter your country number:")
 if "+959" == phonenumber:
@@ -27,6 +32,8 @@ elif "+91" == phonenumber:
     print("Your phone number is thai phone number")
 else:
     print("We have +959 and +91 so you should write this number") 
+for repeat in range (1,2):
+        print(phonenumber)
 
 gender=input("Enter your gender :")
 nameofbook=input("Enter your name of book :")
